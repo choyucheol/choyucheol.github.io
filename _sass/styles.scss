@@ -12,21 +12,22 @@
   font-style: italic; /* 이탤릭 유지 */
 }
 
-.member-card {
-  display: flex;
-  align-items: flex-start;
+/* 기존 flex 제거, 사진 위, 설명 아래 */
+.member-card-vertical {
+  display: block;
+  text-align: center; /* 사진과 텍스트 가운데 정렬 */
   margin-bottom: 2rem;
 }
 
 .member-photo {
   width: 180px;
   border-radius: 12px;
-  margin-right: 20px; /* 사진과 이름 간격 */
+  margin-bottom: 1rem; /* 사진과 텍스트 간격 */
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .prof-name {
-  font-family: "Georgia", "Times New Roman", serif; /* 고급스럽게 */
+  font-family: "Georgia", "Times New Roman", serif;
   font-weight: 600;
   font-size: 1.6em;
   margin-top: 0;
@@ -34,13 +35,14 @@
   color: #222;
 }
 
+/* 학생 정보 구분 선 */
 .member-list {
   margin-top: 1.5rem;
 }
 
 .member-entry {
   padding: 1rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.08); /* 아주 연한 밑줄 */
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
 .student-name {
@@ -48,3 +50,4 @@
   font-size: 1.2em;
   font-weight: 500;
 }
+
