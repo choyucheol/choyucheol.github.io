@@ -84,6 +84,12 @@
   color: #333;
 }
 
+.section-divider {
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.08); /* 아주 연한 회색 */
+  margin: 2rem 0; /* 위아래 간격 */
+}
+
 .edu-section li strong, .exp-section li strong {
   color: #111;
 }
