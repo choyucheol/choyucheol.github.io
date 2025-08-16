@@ -15,7 +15,7 @@
 /* 기존 flex 제거, 사진 위, 설명 아래 */
 .member-card-vertical {
   display: block;
-  text-align: center; /* 사진과 텍스트 가운데 정렬 */
+  text-align: left; 
   margin-bottom: 2rem;
 }
 
