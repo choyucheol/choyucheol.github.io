@@ -1,2 +1,7 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
+
+.pub-authors {
+  color: #777;       /* 살짝 회색 */
+  font-size: 0.9em;  /* 본문보다 살짝 작게 */
+}
