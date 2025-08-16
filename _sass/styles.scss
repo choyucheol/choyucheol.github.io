@@ -3,5 +3,11 @@
 
 .pub-authors {
   color: #777;       /* 살짝 회색 */
-  font-size: 0.9em;  /* 본문보다 살짝 작게 */
+  font-size: 0.8em;  /* 본문보다 살짝 작게 */
+}
+
+.pub-journal {
+  color: #3b82f6;     /* 흐린 파란색 (Tailwind의 blue-500 느낌) */
+  font-size: 0.8em;   /* 저자와 같은 크기 */
+  font-style: italic; /* 이탤릭 유지 */
 }
