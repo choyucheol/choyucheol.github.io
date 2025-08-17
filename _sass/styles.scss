@@ -93,3 +93,46 @@
 .edu-section li strong, .exp-section li strong {
   color: #111;
 }
+
+/* 모집 조건 리스트 */
+.recruit-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem 0;
+}
+.recruit-list li {
+  margin-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+.recruit-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #2563eb; /* 파란색 체크 아이콘 */
+}
+
+/* 강조 문구 */
+.highlight-text {
+  font-weight: 600;
+  color: #dc2626; /* 붉은색 계열 포인트 */
+  margin: 1.2rem 0;
+}
+
+/* Contact 카드 */
+.contact-card {
+  background: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-top: 2rem;
+}
+.contact-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.4em;
+  color: #1e40af; /* 블루 헤더 */
+}
+.contact-card p {
+  margin: 0.4rem 0;
+}
+
