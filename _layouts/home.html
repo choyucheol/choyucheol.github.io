@@ -1,61 +1,10 @@
 ---
 layout: default
 ---
-<section class="research-section">
-  <h2>Research Topics</h2>
-
-  <div class="research-grid">
-
-    <div class="research-card">
-      <h3>Computer Vision</h3>
-      <img src="{{ '/assets/img/research/computer-vision.jpg' | relative_url }}" alt="Computer Vision" class="research-img">
-      <p>
-        We explore advanced computer vision techniques for object recognition,
-        detection, and visual understanding. Our research focuses on
-        representation learning and efficient architectures to tackle complex
-        visual perception tasks in real-world scenarios.
-      </p>
-    </div>
-
-    <div class="research-card">
-      <h3>Multimodal Model</h3>
-      <img src="{{ '/assets/img/research/multimodal.jpg' | relative_url }}" alt="Multimodal Model" class="research-img">
-      <p>
-        Our work investigates models that integrate diverse modalities,
-        including vision, language, and audio. By aligning and fusing these
-        modalities, we aim to achieve richer understanding and more robust AI
-        systems for practical applications.
-      </p>
-    </div>
-
-    <div class="research-card">
-      <h3>Time Series Anomaly Detection</h3>
-      <img src="{{ '/assets/img/research/timeseries.jpg' | relative_url }}" alt="Time Series Anomaly Detection" class="research-img">
-      <p>
-        We develop algorithms for detecting anomalies in time series data,
-        enabling early detection of irregularities in critical systems such as
-        finance, healthcare, and manufacturing. Our methods emphasize both
-        accuracy and scalability.
-      </p>
-    </div>
-
-    <div class="research-card">
-      <h3>AI for Physics</h3>
-      <img src="{{ '/assets/img/research/ai-physics.jpg' | relative_url }}" alt="AI for Physics" class="research-img">
-      <p>
-        We apply machine learning to accelerate physics research, from
-        materials simulation to fundamental scientific discovery. Our research
-        bridges domain knowledge and AI techniques to open new frontiers in
-        computational physics.
-      </p>
-    </div>
-
-  </div>
-</section>
 
 
 <!-- Page Header -->
-<!--
+
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
@@ -81,10 +30,10 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto">
 
         {{ content }}
--->
+
 
         <!-- Home Post List -->
-<!--
+
         {% for post in site.posts limit : 5 %}
 
         <article class="post-preview">
@@ -110,9 +59,9 @@ layout: default
         <hr>
 
         {% endfor %}
--->
+
         <!-- Pager -->
-<!--
+
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
         </div>
@@ -120,4 +69,4 @@ layout: default
       </div>
     </div>
   </div>
--->
+
