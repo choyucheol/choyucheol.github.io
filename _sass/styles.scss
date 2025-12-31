@@ -154,3 +154,19 @@
   width: 120px;
   flex-shrink: 0;                /* 사진 찌그러짐 방지 */
 }
+
+@media (max-width: 768px) {
+  .student-entry {
+    flex-direction: row;      /* 세로로 안 떨어지게 */
+    align-items: center;      /* 사진–텍스트 중앙 정렬 */
+  }
+
+  .student-entry .member-photo {
+    margin-right: 1rem;
+    width: 100px;             /* 모바일에서 사진 살짝 작게 */
+  }
+
+  .student-info {
+    text-align: left;
+  }
+}
