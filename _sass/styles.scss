@@ -144,6 +144,7 @@
 .student-entry {
   display: flex;
   align-items: flex-start;  /* center → flex-start */
+  border-bottom: none;
 }
 
 /* 교수 카드용 vertical 스타일 무력화 */
