@@ -45,17 +45,6 @@
   border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
-.student-name {
-  margin-top: 2rem;
-  margin: 0;
-  font-size: 1.2em;
-  font-weight: 600;
-}
-.student-info p {
-  font-size: 1.0em;
-  margin: 0.15rem 0;       /* 항목 간격 최소화 */
-}
-
 .edu-exp-container {
   margin-top: 2rem;
   display: flex;
@@ -139,6 +128,16 @@
 }
 .contact-card p {
   margin: 0.4rem 0;
+}
+
+.student-name {
+  margin-top: 2rem;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.student-info p {
+  font-size: 1.0em;
+  margin: 0.15rem 0;       /* 항목 간격 최소화 */
 }
 
 /* 학생 카드: 가로 배치 강제 */
