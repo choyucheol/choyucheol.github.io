@@ -1,7 +1,12 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
+    <!-- <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a> --> <!-- 로고 추가를 위해, 이 줄을 변경하였음 -->
+    <a class="navbar-brand" href="{{ "/" | relative_url }}">
+      <img src="{{ "/assets/img/dail-logo.jpg" | relative_url }}"
+           alt="DAIL Lab"
+           style="height: 36px;">
+    </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
       <i class="fa fa-bars"></i>
