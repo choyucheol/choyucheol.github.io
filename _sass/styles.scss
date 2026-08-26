@@ -178,3 +178,48 @@
   }
   
 }
+
+/* Research Projects */
+.project-list {
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.project-card:first-child {
+  padding-top: 0.5rem;
+}
+
+.project-title {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #222;
+}
+
+.project-title-ko {
+  margin: 0 0 0.55rem 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.project-period {
+  margin: 0.25rem 0;
+  color: #3b82f6;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.project-funder {
+  margin: 0.25rem 0 0 0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+.project-funder-ko {
+  color: #777;
+}
